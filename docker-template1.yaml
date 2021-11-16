@@ -46,3 +46,4 @@ objects:
             name: ${APP_NAME}-github-webhook-secret
       - type: ConfigChange
     runPolicy: Serial
+    
