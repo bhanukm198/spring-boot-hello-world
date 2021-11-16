@@ -46,4 +46,18 @@ objects:
             name: ${APP_NAME}-github-webhook-secret
       - type: ConfigChange
     runPolicy: Serial
+parameters:
+- name: APP_NAME
+  displayName: Application Name
+  required: true 
+- name: PROJECT_NAME
+  displayName: Project Name
+  required: true 
+- name: APP_GIT_URL
+  displayName: Application Source Git URL
+  required: true
+- name: BRANCH_NAME
+  displayName: Branch Name
+  required: true 
+  value: master
     
